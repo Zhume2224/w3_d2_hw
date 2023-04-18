@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.white-text {
+    color: white;
+}
+
+ul {
+    list-style: none;
+
+  
+}
+
+body>header {
+    padding: 1rem;
+    /* this size is based on users preference */
+    background: dodgerblue;
+    display: flex;
+    /* flexbox makes parents' children orgnized */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header>nav>ul {
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    gap:1rem;
+
+}
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 701;
+
+}
+
+body>main {
+    margin: 3rem;
+}
+
+#author {
+    padding: 1rem;
+    border: 2px dashed #eee;
+}
+
+#author>img {
+    border-radius: 100%;
+}
+
+body>footer {
+    padding: 1rem;
+    background: dodgerblue;
+}
+
+#footer-container { display:flex;
+    gap:2rem;
+    align-content: flex-start;
+    align-self: center;
+}
+
+#nav1 {
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
